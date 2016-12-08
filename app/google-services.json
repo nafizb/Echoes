@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "708189204682",
+    "project_id": "echoes-150119"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708189204682:android:1c7276cf89b0472d",
+        "android_client_info": {
+          "package_name": "com.nafizb.echoes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZDKZO65LnC3W3zQKcJMIsL50Pp0Uimbk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-87755148-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

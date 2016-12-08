@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Echoes</string>
+    <string name="hint_record_title">Title</string>
+    <string name="text_record">Touch and Record!</string>
+    <string name="text_uploading">Uploading...</string>
+    <string name="button_record_send">Send</string>
+    <string name="button_play_close">Close</string>
+    <string name="text_play_loading">Loading...</string>
+</resources>

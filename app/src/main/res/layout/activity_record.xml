@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFF"
+        android:layout_marginTop="24dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edittext_title"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_record_title"
+            android:padding="16dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/button_record"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_mic_vector"
+        android:tint="@color/colorAccent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_record_send"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"/>
+</LinearLayout>
